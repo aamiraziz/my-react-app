@@ -11,11 +11,6 @@ import CounterClass from './CounterClass.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    {/* <Variables/>  */}
-    {/* <MyForm /> */}
-    {/* <Variables titleefe = "Mr." /> */}
-    {/* <App />
-    <Variables /> */}
+    <Variables /> 
   </StrictMode>,
 )
