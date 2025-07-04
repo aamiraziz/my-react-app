@@ -12,7 +12,5 @@ import CounterClass from './CounterClass.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <TableOf number = {108} />
-    <CounterFunction />
-    <CounterClass />
   </StrictMode>,
 )
