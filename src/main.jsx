@@ -11,10 +11,14 @@ import CounterClass from './CounterClass.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Variables /> 
-    <MyForm />
+    <App />
+    <Variables/> 
+    <MyForm /> 
     <Variables titleefe = "Mr." />
     <App />
-    <Variables /> 
+    <Variables />
+    <TableOf number = {108} />
+    <CounterFunction />
+    <CounterClass />
   </StrictMode>,
 )

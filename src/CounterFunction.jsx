@@ -12,16 +12,16 @@ function CounterFunction () {
   // Initialize counter value to 0 using useState method
   // declare the setCount function
 
-  const [count, setCount] = useState(0)
+  const [count, setCountt] = useState(0)
 
   // To increase the value of count variable
   const Increment = () => {
-    setCount(count + 1)
+    setCountt(count + 1)
   }
 
   // To decrease the value of count variable
   const Decrement = () => {
-    setCount(count - 1)
+    setCountt(count - 1)
   }
 
   // Return Function
