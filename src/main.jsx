@@ -8,10 +8,11 @@ import MyForm from './MyForm.jsx'
 import TableOf from './TableOf.jsx'
 import CounterFunction from './CounterFunction.jsx'
 import CounterClass from './CounterClass.jsx'
+import Counts from './Counts.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <App />
     <Variables/> 
     <MyForm /> 
     <Variables titleefe = "Mr." />
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
     <Variables />
     <TableOf number = {108} />
     <CounterFunction />
-    <CounterClass />
+    <CounterClass /> */}
+    <Counts />
   </StrictMode>,
 )
