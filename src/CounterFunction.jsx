@@ -16,12 +16,14 @@ function CounterFunction () {
 
   // To increase the value of count variable
   const Increment = () => {
-    setCountt(count + 1)
+    // setCountt(count + 1)
+    setCountt(prevCount => prevCount + 1)
   }
 
   // To decrease the value of count variable
   const Decrement = () => {
-    setCountt(count - 1)
+    // setCountt(count - 1)
+    setCountt(prevCount => prevCount - 1)
   }
 
   // Return Function
